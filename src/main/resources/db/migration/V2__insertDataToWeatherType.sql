@@ -1,0 +1,7 @@
+MERGE INTO WEATHER_TYPE (WEATHER_TYPE_CD,TEMPERATURE_MIN ,TEMPERATURE_MAX ,IMAGE ) 
+  KEY(WEATHER_TYPE_CD) 
+VALUES 
+('SUNNY',-60,60,'/sunny.png'),
+('CLOUDY',-60,60,'/cloudy.png'),
+('RAINY',-5,40,'/rainy.png'),
+('SNOWY',-60,5,'/snowy.png');
